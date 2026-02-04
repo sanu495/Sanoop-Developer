@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    
+    <!-- DNS Prefetch for external resources -->
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com" />
+    <link rel="dns-prefetch" href="https://fonts.gstatic.com" />
+    <link rel="dns-prefetch" href="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com" />
+    
+    <!-- Preconnect to critical origins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    
+    <!-- Meta tags -->
+    <meta property="og:title" content="Sanoop Sanu - Portfolio" />
+    <meta property="og:description" content="Python Backend Developer | Data Analyst | FastAPI | SQL & APIs" />
+    <meta property="og:image" content="https://static.getmocha.com/og.png" type="image/png" />
+    <meta property="og:url" content="https://getmocha.com" />
+    <meta property="og:type" content="website" />
+    <meta property="og:author" content="Sanoop Sanu" />
+    <meta property="og:site_name" content="Sanoop Sanu Portfolio" />
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:site" content="@sanoopsanu" />
+    <meta property="twitter:title" content="Sanoop Sanu - Portfolio" />
+    <meta property="twitter:description" content="Python Backend Developer | Data Analyst | FastAPI | SQL & APIs" />
+    <meta property="twitter:image" content="https://static.getmocha.com/og.png" type="image/png" />
+    
+    <!-- Icons -->
+    <link rel="shortcut icon" href="https://static.getmocha.com/favicon.ico" type="image/x-icon" />
+    <link rel="apple-touch-icon" sizes="180x180" href="https://static.getmocha.com/apple-touch-icon.png" type="image/png" />
+    
+    <!-- Optimized font loading with font-display: swap -->
+    <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+    
+    <!-- Preload critical profile image -->
+    <link rel="preload" as="image" href="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/Profile.jpeg" />
+    
+    <title>Sanoop Sanu - Portfolio</title>
+    
+    <!-- Inline critical CSS for above-the-fold content -->
+    <style>
+      body { margin: 0; background: #0a0a0a; }
+      #root { min-height: 100vh; }
+      .loading-screen { 
+        position: fixed; 
+        inset: 0; 
+        background: #0a0a0a; 
+        display: flex; 
+        align-items: center; 
+        justify-content: center;
+        z-index: 9999;
+      }
+      .loading-spinner {
+        width: 40px;
+        height: 40px;
+        border: 3px solid rgba(139, 92, 246, 0.2);
+        border-top-color: rgba(139, 92, 246, 1);
+        border-radius: 50%;
+        animation: spin 0.8s linear infinite;
+      }
+      @keyframes spin {
+        to { transform: rotate(360deg); }
+      }
+    </style>
+  </head>
+  <body>
+    <div id="root">
+      <div class="loading-screen">
+        <div class="loading-spinner"></div>
+      </div>
+    </div>
+    <script type="module" src="/src/react-app/main.tsx"></script>
+  </body>
+</html>
