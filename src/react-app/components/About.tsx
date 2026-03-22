@@ -17,7 +17,7 @@ export default function About() {
                 <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-purple-600 rounded-3xl blur opacity-50 group-hover:opacity-75 transition duration-300"></div>
                 <div className="relative">
                   <img
-                    src="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/Profile.jpeg"
+                    src="/fiver.png"
                     alt="Sanoop Sanu"
                     className="w-64 h-64 object-cover rounded-3xl border-4 border-neutral-900 shadow-2xl"
                   />

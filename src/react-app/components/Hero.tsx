@@ -102,7 +102,7 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
 
                   <img
-                    src="Five pic"
+                    src="/fiver.png"
                     alt="Sanoop Sanu"
                     className="w-48 h-48 sm:w-56 sm:h-56 object-cover rounded-full relative z-10 shadow-2xl group-hover:scale-105 transition-transform duration-300"
                   />
@@ -231,7 +231,7 @@ export default function Hero() {
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
 
                   <img
-                    src="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/Profile.jpeg"
+                    src="/fiver.png"
                     alt="Sanoop Sanu"
                     className="w-80 h-80 xl:w-96 xl:h-96 object-cover rounded-full relative z-10 shadow-2xl group-hover:scale-105 transition-transform duration-300"
                   />

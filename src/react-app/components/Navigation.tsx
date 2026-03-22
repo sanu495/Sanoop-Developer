@@ -105,7 +105,7 @@ function Navigation() {
             <div className="relative w-9 h-9 sm:w-10 sm:h-10">
               <div className="absolute -inset-0.5 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full opacity-75 group-hover:opacity-100 blur transition duration-200"></div>
               <img
-                src="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/Profile.jpeg"
+                src="/fiver.png"
                 alt="Sanoop Sanu"
                 width="40"
                 height="40"
