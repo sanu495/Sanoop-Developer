@@ -24,14 +24,14 @@ export default function Hero() {
   useEffect(() => {
     // Simplified mousemove for better scroll performance
     let ticking = false;
-    
+
     const handleMouseMove = (e: MouseEvent) => {
       if (!ticking) {
         requestAnimationFrame(() => {
           if (backgroundRef.current) {
             const x = (e.clientX / window.innerWidth - 0.5) * 10;
             const y = (e.clientY / window.innerHeight - 0.5) * 10;
-            
+
             const particles = backgroundRef.current.children;
             if (particles[0]) {
               (particles[0] as HTMLElement).style.transform = `translate(${x}px, ${y}px)`;
@@ -54,19 +54,19 @@ export default function Hero() {
     <section id="home" className="min-h-screen flex items-center justify-center px-4 sm:px-6 pt-20 sm:pt-24 pb-12 relative overflow-hidden">
       {/* Animated background particles - optimized */}
       <div ref={backgroundRef} className="absolute inset-0 overflow-hidden pointer-events-none">
-        <div 
+        <div
           className="absolute w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-violet-600/10 rounded-full blur-3xl"
-          style={{ 
-            top: '20%', 
+          style={{
+            top: '20%',
             left: '10%',
             animation: 'float 8s ease-in-out infinite',
             backfaceVisibility: 'hidden'
           }}
         />
-        <div 
+        <div
           className="absolute w-64 h-64 sm:w-80 sm:h-80 md:w-96 md:h-96 bg-purple-600/10 rounded-full blur-3xl"
-          style={{ 
-            bottom: '20%', 
+          style={{
+            bottom: '20%',
             right: '10%',
             animation: 'float 10s ease-in-out infinite',
             animationDelay: '2s',
@@ -90,25 +90,25 @@ export default function Hero() {
             <div className="relative group">
               {/* Outer glow ring - animated */}
               <div className="absolute -inset-2 sm:-inset-3 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 rounded-full opacity-75 blur-xl sm:blur-2xl group-hover:opacity-100 transition-opacity duration-500 animate-pulse"></div>
-              
+
               {/* Rotating gradient border */}
-              <div className="absolute -inset-1 sm:-inset-1.5 bg-gradient-to-r from-violet-500 via-purple-500 to-pink-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity duration-300" 
-                   style={{ animation: 'spin 8s linear infinite' }}></div>
-              
+              <div className="absolute -inset-1 sm:-inset-1.5 bg-gradient-to-r from-violet-500 via-purple-500 to-pink-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity duration-300"
+                style={{ animation: 'spin 8s linear infinite' }}></div>
+
               {/* Inner frame */}
               <div className="relative bg-neutral-900 rounded-full p-1.5 sm:p-2">
                 <div className="relative overflow-hidden rounded-full">
                   {/* Shimmer effect overlay */}
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                  
+
                   <img
-                    src="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/Profile.jpeg"
+                    src="Five pic"
                     alt="Sanoop Sanu"
                     className="w-48 h-48 sm:w-56 sm:h-56 object-cover rounded-full relative z-10 shadow-2xl group-hover:scale-105 transition-transform duration-300"
                   />
                 </div>
               </div>
-              
+
               {/* Floating accent elements */}
               <div className="absolute -top-4 -right-4 w-16 h-16 sm:w-20 sm:h-20 bg-gradient-to-br from-violet-500 to-purple-600 rounded-full opacity-20 blur-xl animate-float" style={{ animationDelay: '0s' }}></div>
               <div className="absolute -bottom-4 -left-4 w-20 h-20 sm:w-24 sm:h-24 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full opacity-20 blur-xl animate-float" style={{ animationDelay: '2s' }}></div>
@@ -125,7 +125,7 @@ export default function Hero() {
                 {portfolioData.name}
               </span>
             </h1>
-            
+
             <div className="min-h-16 sm:min-h-20 mb-6 animate-fadeIn" style={{ animationDelay: '0.5s' }}>
               <p className="text-base sm:text-lg text-violet-300 font-medium leading-relaxed">
                 {displayedText}
@@ -187,7 +187,7 @@ export default function Hero() {
                 <MessageCircle size={18} className="relative z-10 text-neutral-400 group-hover:text-green-400 transition-all duration-300 group-hover:rotate-12" />
               </a>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 justify-center animate-fadeIn" style={{ animationDelay: '0.8s' }}>
               <a
                 href="#contact"
@@ -219,17 +219,17 @@ export default function Hero() {
             <div className="relative group">
               {/* Outer glow ring - animated */}
               <div className="absolute -inset-4 bg-gradient-to-r from-violet-600 via-purple-600 to-pink-600 rounded-full opacity-75 blur-2xl group-hover:opacity-100 transition-opacity duration-500 animate-pulse"></div>
-              
+
               {/* Rotating gradient border */}
-              <div className="absolute -inset-2 bg-gradient-to-r from-violet-500 via-purple-500 to-pink-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity duration-300" 
-                   style={{ animation: 'spin 8s linear infinite' }}></div>
-              
+              <div className="absolute -inset-2 bg-gradient-to-r from-violet-500 via-purple-500 to-pink-500 rounded-full opacity-75 group-hover:opacity-100 transition-opacity duration-300"
+                style={{ animation: 'spin 8s linear infinite' }}></div>
+
               {/* Inner frame */}
               <div className="relative bg-neutral-900 rounded-full p-2">
                 <div className="relative overflow-hidden rounded-full">
                   {/* Shimmer effect overlay */}
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
-                  
+
                   <img
                     src="https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/Profile.jpeg"
                     alt="Sanoop Sanu"
@@ -237,7 +237,7 @@ export default function Hero() {
                   />
                 </div>
               </div>
-              
+
               {/* Floating accent elements */}
               <div className="absolute -top-6 -right-6 w-20 h-20 bg-gradient-to-br from-violet-500 to-purple-600 rounded-full opacity-20 blur-xl animate-float" style={{ animationDelay: '0s' }}></div>
               <div className="absolute -bottom-6 -left-6 w-24 h-24 bg-gradient-to-br from-pink-500 to-purple-600 rounded-full opacity-20 blur-xl animate-float" style={{ animationDelay: '2s' }}></div>
@@ -251,7 +251,7 @@ export default function Hero() {
                 Welcome to my portfolio
               </span>
             </div>
-            
+
             <h1 className="text-6xl lg:text-7xl xl:text-8xl font-bold text-white mb-6 leading-tight animate-slideUp">
               <span className="block mb-2 text-4xl lg:text-5xl font-light text-neutral-400">
                 Hello, I'm
@@ -260,7 +260,7 @@ export default function Hero() {
                 {portfolioData.name}
               </span>
             </h1>
-            
+
             <div className="min-h-20 mb-8 animate-fadeIn" style={{ animationDelay: '0.5s' }}>
               <p className="text-xl lg:text-2xl text-violet-300 font-medium leading-relaxed">
                 {displayedText}
@@ -322,7 +322,7 @@ export default function Hero() {
                 <MessageCircle size={20} className="relative z-10 text-neutral-400 group-hover:text-green-400 transition-all duration-300 group-hover:rotate-12" />
               </a>
             </div>
-            
+
             <div className="flex flex-col sm:flex-row gap-4 justify-center lg:justify-start animate-fadeIn" style={{ animationDelay: '0.8s' }}>
               <a
                 href="#contact"
