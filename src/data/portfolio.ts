@@ -66,14 +66,14 @@ export const portfolioData = {
     {
       icon: "Code",
       title: "Web Application Development",
-      description: "Create full-stack web solutions combining FastAPI backends with HTML, CSS, and Jinja2 templates for responsive UIs. Handle user authentication, forms, and database integrations for dynamic applications.",
-      link: "https://github.com/sanu495/NexSofture-Internship-FastAPI"
+      description: "Create full-stack web solutions combining FastAPI backends with Jinja2 templates for responsive UIs. Handle user authentication, forms, and database integrations for dynamic applications.",
+      link: "https://github.com/sanu495/recruitiq"
     },
     {
       icon: "Server",
       title: "Backend API Development",
       description: "Build scalable RESTful APIs using FastAPI and SQLModel ORM for efficient data handling. Integrate MySQL databases with secure CRUD operations. Perfect for web apps needing robust backend performance.",
-      link: "https://github.com/sanu495/NexSofture-Internship-FastAPI"
+      link: "https://github.com/sanu495/FastAPI-Security-JWT"
     },
     {
       icon: "Database",
@@ -87,22 +87,30 @@ export const portfolioData = {
       title: "FastAPI & Authentication Systems",
       description: "FastAPI to build a implementing secure JWT-based OAuth2 authentication, bcrypt password hashing, and role-based access control (RBAC) to protect endpoints with access permissions.",
       image: "https://019c1e1a-7b0c-7a8a-aa6b-f8a7db89017d.mochausercontent.com/auth-system.png",
-      date: "Nov 27, 2025",
+      date: "Dec 27, 2025",
       githubUrl: "https://github.com/sanu495/FastAPI-Security-JWT"
     },
     {
       title: "Student Management System: From CRUD to Deployment",
       description: "Step-by-step guide to creating a full-stack app with FastAPI, SQLModel, and MySQL. Includes database optimization and form validation tips learned at Nexsofture.",
       image: "https://images.unsplash.com/photo-1523240795612-9a054b0db644?w=800&h=600&fit=crop",
-      date: "Dec 2025",
+      date: "Nov 2025",
       githubUrl: "https://github.com/sanu495/NexSofture-Internship-FastAPI",
       liveUrl: "https://mzcotzaac.onrender.com/"
     },
+     {
+      title: "RecruitIQ-AI powered Applicant Tracking System",
+      description: "AI-powered Applicant Tracking System built with FastAPI, MySQL & Groq AI featuring smart resume screening, pipeline management, hiring analytics and interview scheduling.",
+      image: "/public/recruitiq.png",
+      date: "Apr, 2026",
+      githubUrl: "https://github.com/sanu495/recruitiq",
+      liveUrl: "https://recruitiq-xu8u.onrender.com/"
+    },
     {
       title: "MySQL-Powered Hospital Management System",
-      description: "Practical examples of advanced SQL queries integrated with FastAPI for analytics and performance issues in entry-level projects.",
+      description: "Practical examples of advanced SQL queries Like Join, Window Functions and Sub Queries integrated with FastAPI for analytics, Visualization and performance issues in entry-level projects.",
       image: "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
-      date: "Dec 7, 2025",
+      date: "Jan, 2026",
       githubUrl: "https://github.com/sanu495/Hospital-DataBase-MySQL"
     }
   ]

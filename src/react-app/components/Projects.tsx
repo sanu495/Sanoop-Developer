@@ -11,7 +11,7 @@ export default function Projects() {
             Featured Projects
           </h2>
         </ScrollReveal>
-        <div className="grid md:grid-cols-3 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {portfolioData.projects.map((project, index) => (
             <ScrollReveal key={index} delay={100 + index * 100}>
               <div className="bg-neutral-800/50 backdrop-blur-sm rounded-2xl overflow-hidden shadow-lg border border-violet-500/20 hover:border-violet-500/40 transition-all duration-300 group interactive-card">
