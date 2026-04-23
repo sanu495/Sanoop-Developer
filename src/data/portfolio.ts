@@ -101,7 +101,7 @@ export const portfolioData = {
      {
       title: "RecruitIQ-AI powered Applicant Tracking System",
       description: "AI-powered Applicant Tracking System built with FastAPI, MySQL & Groq AI featuring smart resume screening, pipeline management, hiring analytics and interview scheduling.",
-      image: "/public/recruitiq.png",
+      image: "/recruitiq.png",
       date: "Apr, 2026",
       githubUrl: "https://github.com/sanu495/recruitiq",
       liveUrl: "https://recruitiq-xu8u.onrender.com/"
